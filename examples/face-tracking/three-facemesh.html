@@ -13,7 +13,7 @@
     scene.add(light);
 
     const faceMesh = mindarThree.addFaceMesh();
-    const texture = new THREE.TextureLoader().load('./assets/canonical_face_model_uv_visualization.png');
+    const texture = new THREE.TextureLoader().load('./assets/facemap.png');
     faceMesh.material.map = texture;
     faceMesh.material.transparent = true;
     faceMesh.material.needsUpdate = true;
